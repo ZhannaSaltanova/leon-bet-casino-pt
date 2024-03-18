@@ -325,17 +325,7 @@ li {
 }
 
 
-@media screen and (max-width: 1024px){
 
-    .slider-second {
-        padding: 10px;
-        padding-right: 20px;
-    }
-    .slider__desc.margin {
-        margin-top: -50px;
-    }
-   
-}
 @media screen and (max-width: 768px) {
     .slider { 
         width: 100%;
