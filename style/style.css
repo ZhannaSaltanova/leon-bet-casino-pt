@@ -361,11 +361,6 @@ li {
         min-height: 248px;
     }
     
-    .btn-slider {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-    }
       
     .swiper-button-next::after, .swiper-button-prev::after {
         color:#fff;
