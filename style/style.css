@@ -289,8 +289,7 @@ li {
 }
 .swiper-slide img {
     width: 100%;
-    max-width: 423px;
-    min-height: 248px;
+    max-width: 350px;
 }
 .slider_title {
     position: absolute;
