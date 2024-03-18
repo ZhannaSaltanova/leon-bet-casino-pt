@@ -344,13 +344,10 @@ td {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-left: 1%;
-    padding-right: 1%;
 }
 .slot__box { 
-    padding: 10px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     
 }
 .slot__item { 
@@ -389,8 +386,8 @@ td {
 .slot__items {
     display: flex;
     flex-wrap: wrap;
-    gap:10px;
-    justify-content: center;
+    gap:5px;
+    justify-content: space-between;
     margin-top: 30px;
  }
 .slot__item-img {
