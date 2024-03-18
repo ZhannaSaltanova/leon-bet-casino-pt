@@ -261,13 +261,139 @@ li {
     }
  }
 
+ /* slider */
+ .slider { 
+    width: 100%;
+    padding-top: 80px;
+}
+.swiper-wrapper {
+    position: relative;
+    height: 300px;
+    width: 100%;
+}
+.container {
+    width: 100%; 
+    max-width: 100%
+}
+.new-slider {
+    width: 100%;
+    max-width: 423px;
+    height: auto;
+}
+.swiper-slide {
+    text-align: center;
+    background-color:#1fad66;
+    border-radius:5px;
+    width: 100%;
+    max-width: 432px;
+}
+.swiper-slide img {
+    width: 100%;
+    max-width: 423px;
+    min-height: 248px;
+}
+.slider_title {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    font-size: 24px;
+}
+.slider_content {
+    position: absolute;
+    top: 35%;
+    left: 20%;
+    font-size: 14px;
+}
+.btn-slider {
+    position: absolute;
+    top: 70%;
+    left: 20%;
+}
+  
+.swiper-button-next::after, .swiper-button-prev::after {
+    color:#fff;
+    border-radius: 40px;
+    width: 100px;
+    height: 50px;
+    position: absolute;
+}
+.swiper-button-next {
+    right: 10px;
+}
+
+.swiper-button-prev {
+    left:10px;
+}
+
+
+@media screen and (max-width: 1024px){
+
+    .slider-second {
+        padding: 10px;
+        padding-right: 20px;
+    }
+    .slider__desc.margin {
+        margin-top: -50px;
+    }
+   
+}
+@media screen and (max-width: 768px) {
+    .slider { 
+        width: 100%;
+    }
+    .swiper-wrapper {
+        position: relative;
+    }
+    .new-slider {
+        width: 100%;
+        max-width: 323px;
+        height: 300px;
+    }
+    .swiper-slide {
+        text-align: center;
+        background-color:#1fad66;
+        border-radius:5px;
+        width: 100%;
+        max-width: 432px;
+    }
+    .swiper-slide img {
+        width: 100%;
+        max-width: 423px;
+        min-height: 248px;
+    }
+    
+    .btn-slider {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+    }
+      
+    .swiper-button-next::after, .swiper-button-prev::after {
+        color:#fff;
+        border-radius: 40px;
+        width: 100px;
+        height: 50px;
+        position: absolute;
+    }
+    .swiper-button-next {
+        right: 10px;
+    }
+    
+    .swiper-button-prev {
+        left:10px;
+    }
+    
+    
+}
+
+
  /* text */
 
 .text {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-top: 80px;
+    padding-top: 30px;
     padding-left: 1%;
     padding-right: 1%;
 }
