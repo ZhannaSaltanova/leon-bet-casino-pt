@@ -283,9 +283,11 @@ li {
     background-color:#1fad66;
     border-radius:5px;
     width: 100%;
+    max-width: 348px;
 }
 .swiper-slide img {
-    width: 348px;
+    width: 100%;
+    max-width: 348px;
     height: auto;
 }
 .slider_title {
