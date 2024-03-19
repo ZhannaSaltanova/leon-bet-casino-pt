@@ -272,28 +272,20 @@ li {
 }
 .swiper-wrapper {
     position: relative;
-    height: 300px;
     width: 100%;
 }
 .container {
     width: 100%; 
     max-width: 100%
 }
-.new-slider {
-    width: 100%;
-    max-width: 423px;
-    height: auto;
-}
 .swiper-slide {
     text-align: center;
     background-color:#1fad66;
     border-radius:5px;
     width: 100%;
-    max-width: 432px;
 }
 .swiper-slide img {
-    width: 100%;
-    max-width: 350px;
+    width: 348px;
     height: auto;
 }
 .slider_title {
