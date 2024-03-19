@@ -18,12 +18,12 @@ $(document).ready(function() {
       1: {
         slidesPerView: 1, 
         spaceBetween: 10, 
-        slidesPerGroup: 3, 
+        slidesPerGroup: 1, 
       },
       769: {
         slidesPerView: 2, 
         spaceBetween: 10, 
-        slidesPerGroup: 3, 
+        slidesPerGroup: 1, 
       },
       1024: { 
         slidesPerView: 4, 
